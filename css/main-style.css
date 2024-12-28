@@ -122,7 +122,7 @@ p.f-24>div>div {
 
 @media screen and (max-width: 992px) and (min-width: 480px) {
   .burger-open .nav:before {
-    background-color: var(--black)
+    background-color: var(--black);
   }
 
   .nav__burger--line {
@@ -180,8 +180,8 @@ p.f-24>div>div {
 
   .burger-open .nav {
     background-color: var(--black) !important;
-    color: var(--white)
-  }
+    color: var(--white);
+  
 }
 
 @media screen and (max-width: 479px) {
@@ -411,7 +411,9 @@ html.lenis {
     padding-bottom: calc(20 / var(--to-rem));
     gap: calc(10 / var(--to-rem));
     display: flex;
-    margin-top: calc(40 / var(--to-rem))
+    margin-top: calc(40 / var(--to-rem));
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .footer__social--item {
@@ -427,7 +429,7 @@ html.lenis {
   }
 
   .burger__item div {
-    font-size: calc(20 / var(--to-rem))
+    font-size: calc(15 / var(--to-rem)) !important;
   }
 }
 

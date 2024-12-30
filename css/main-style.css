@@ -14,6 +14,22 @@
   font-weight: bold !important;
 } */
 
+
+
+
+/* Button Styles */
+.btn {
+  border: 1px solid currentColor;
+}
+
+.btn.full {
+  width: 100%;
+}
+
+[button-style="stroke"] {
+  background-color: transparent;
+}
+
 .truncate {
   white-space: nowrap;
   overflow: hidden;
@@ -2515,7 +2531,7 @@ label.error {
   .featured:nth-child(3) .featured__content .f-18,
   .featured:nth-child(3) .featured__content .f-40 {
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    /* -webkit-line-clamp: 3; */
     -webkit-box-orient: vertical;
     overflow: hidden
   }
@@ -3635,5 +3651,6 @@ body[theme=footer-cta] .nav {
 
 body[theme=footer-mob] .nav {
   color: var(--black);
-  background-color: var(--yellow)
+  background-color: var(--yellow);
+}
 }
